@@ -14,7 +14,7 @@ to client.
 
 As CLI from source
 
-    go get github.com/reddec/congen
+    go get github.com/reddec/congen/cmd/...
 
 From binary - check [releases](releases) section 
 

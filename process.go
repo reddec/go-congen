@@ -172,7 +172,7 @@ func Forms(reader io.Reader) ([]Form, error) {
 
 	list := findForms(parser)
 	// merge duplicates
-	var usedForms = map[string]*Form{} //TODO: merge dups
+	var usedForms = map[string]*Form{}
 	for _, form := range list {
 		oldForm, exists := usedForms[form.Action]
 		if !exists {

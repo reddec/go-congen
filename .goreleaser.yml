@@ -5,7 +5,7 @@ builds:
       - linux
       - windows
       - darwin
-    main: cmd/go-congen
+    main: ./cmd/go-congen
 checksum:
   name_template: 'checksums.txt'
 snapshot:
@@ -16,3 +16,4 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+      - '^build:'
