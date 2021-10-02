@@ -18,7 +18,7 @@ MacOS
 
     brew install reddec/go-congen
 
-From binary - check [releases](releases) section
+From binary - check [releases](https://github.com/reddec/go-congen/releases) section
 
 As CLI from source
 
