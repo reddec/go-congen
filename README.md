@@ -2,6 +2,8 @@
 
 Go HTTP controller generator. (see [example](example))
 
+Can be used as CLI or library.
+
 Utility:
 * parses HTML file
 * detects all forms
@@ -12,11 +14,15 @@ to client.
 
 ## Installation
 
+MacOS
+
+    brew install reddec/go-congen
+
+From binary - check [releases](releases) section
+
 As CLI from source
 
     go get github.com/reddec/congen/cmd/...
-
-From binary - check [releases](releases) section 
 
 ## Features
 

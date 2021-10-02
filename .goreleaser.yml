@@ -10,6 +10,22 @@ builds:
       - arm64
       - arm
     main: ./cmd/go-congen
+brews:
+  - tap:
+      owner: reddec
+      name: go-congen
+    folder: Formula
+    homepage:  https://github.com/reddec/go-congen
+    description: Generates Go controller based on HTML
+    license: MIT
+    test: |
+      system "#{bin}/go-congen --help"
+    dependencies:
+      - name: go
+        type: optional
+      - name: git
+    install: |-
+      bin.install "go-congen"
 checksum:
   name_template: 'checksums.txt'
 snapshot:
