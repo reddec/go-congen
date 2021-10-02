@@ -16,7 +16,7 @@ to client.
 
 MacOS
 
-    brew install reddec/go-congen
+    brew install reddec/tap/go-congen
 
 From binary - check [releases](https://github.com/reddec/go-congen/releases) section
 
