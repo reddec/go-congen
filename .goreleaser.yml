@@ -14,6 +14,7 @@ brews:
   - tap:
       owner: reddec
       name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     folder: Formula
     homepage:  https://github.com/reddec/go-congen
     description: Generates Go controller based on HTML
