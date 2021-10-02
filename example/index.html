@@ -1,0 +1,35 @@
+<html>
+<body>
+<form method="post">
+    <div
+            {{if abx}}
+            {{end}}
+    ></div>
+    <select name="location">
+        <option value="hog">Hogvarts</option>
+        <option value="belr">B.E.L.R</option>
+    </select>
+    <input type="text" name="user"/>
+    <input type="text" name="user"/>
+    <input type="password" name="password"/>
+    <input type="number" name="year" format="integer"/>
+    <input type="number" name="score"/>
+    <input type="hidden" name="csrf" value="xyz">
+</form>
+
+{{if qqq}}
+
+<form method="post" action="delete">
+    <input type="hidden" name="user" value="xxx"/>
+</form>
+<form method="post" action="delete">
+    <input type="hidden" name="user2" value="xxx2"/>
+</form>
+{{end}}
+
+<form method="post" action="reset-password">
+    <input type="password" name="password"/>
+    <input type="hidden" name="user" value="xxx"/>
+</form>
+</body>
+</html>
